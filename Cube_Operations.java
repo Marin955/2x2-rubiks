@@ -49,7 +49,7 @@ public class Cube_Operations {
         rcubie.piece_positions[tmp_pos[5]] = rcubie.piece_positions[tmp_pos[2]];
         rcubie.piece_positions[tmp_pos[2]] = tmp_pos2;
         
-        rcubie.prev_moves = rcubie.prev_moves + "R ";
+        rcubie.prev_moves = rcubie.prev_moves + "R  ";
         return rcubie;
         
     }
@@ -116,7 +116,7 @@ public class Cube_Operations {
         ucubie.piece_positions[tmp_pos[4]] = ucubie.piece_positions[tmp_pos[6]];
         ucubie.piece_positions[tmp_pos[6]] = tmp_pos2;
         
-        ucubie.prev_moves = ucubie.prev_moves + "U ";
+        ucubie.prev_moves = ucubie.prev_moves + "U  ";
         return ucubie;
     }
     
@@ -210,7 +210,7 @@ public class Cube_Operations {
         fcubie.piece_positions[tmp_pos[5]] = fcubie.piece_positions[tmp_pos[7]];
         fcubie.piece_positions[tmp_pos[7]] = tmp_pos2;
         
-        fcubie.prev_moves = fcubie.prev_moves + "F ";
+        fcubie.prev_moves = fcubie.prev_moves + "F  ";
         return fcubie;
     }
     

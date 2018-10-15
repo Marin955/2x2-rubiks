@@ -1,7 +1,5 @@
 package pkg2x2_cube_solver;
 
-import java.util.*;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -40,9 +38,16 @@ public class Main {
         
         Cube initial = new Cube(pos, matrix);
         Cube_Operations oper = new Cube_Operations();
-        initial = oper.f2(initial);     //doing an F2 move on a solved cube
+        initial = oper.f2(initial);     //doing a bunch of moves on a solved cube to scramble it, and then solving it
+        initial = oper.r(initial);
+        initial = oper.u_p(initial);
+        initial = oper.f(initial);
+        initial = oper.r(initial);
+        //initial = oper.u_p(initial);
+        //initial = oper.f(initial);
+        initial.prev_moves = "Solution: ";
         Solver solveit = new Solver(initial);
-        System.out.println(solveit.findSolution());     //currently won't give a correct solution, solving is not yet done
+        System.out.println(solveit.findSolution());     //it finds the solution, but it doesn't print it correctly, working on it
         
         
         
