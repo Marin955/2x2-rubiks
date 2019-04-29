@@ -6,7 +6,7 @@
 
 Inside the Main.java file there's a line that says:
 
-  String stateToBeSolved = "wogybgryowgbowywbrogyrrb"
+  String stateToBeSolved = \"wogybgryowgbowywbrogyrrb\"
 
 Change that input string to whatever your cube looks like by following this rule:
 ------------
