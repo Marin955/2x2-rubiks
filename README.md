@@ -10,7 +10,7 @@ Inside the Main.java file there's a line that says:
 
 Change that input string to whatever your cube looks like by following this rule:
 
-Green is "g"
+Green is "g" \n
 White is "w"
 and so on...
 
