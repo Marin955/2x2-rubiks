@@ -1,6 +1,24 @@
 # 2x2-rubiks
-[UNFINISHED] 2x2 Rubiks Cube Solving Algorithm in Java (Personal Project)
 
-This is just something I work on in my free time. I'm still a beginner in programming. 
-Currently only the Cube data structure (adjacency matrix) and the twisting functions are done.
-The solving algorithm works, but it's bruteforcing so it's terribly slow, still working on it.
+2x2 Rubiks Cube Solving Algorithm in Java (Personal Project)
+
+---------------How to use------------------------
+Inside the Main.java file there's a line that says:
+
+  String stateToBeSolved = "wogybgryowgbowywbrogyrrb";
+
+Change that input string to whatever your cube looks like by following this rule:
+------------
+Green is "g"
+White is "w"
+and so on...
+------------
+![Sample](sample_input.jpg)
+
+So the input string from the image above would be:
+"ywborworbyrwogywrbgogbgy"
+
+After that Compile&Run and the solution should pop up in a few seconds!
+
+Output for the cube state from the image above:
+![OutputExample](example_output.jpg)
