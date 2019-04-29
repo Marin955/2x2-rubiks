@@ -14,7 +14,7 @@ public class Main {
         Cube solvedState = new Cube(convertOperation4SolvedState.getCube().piece_positions, convertOperation4SolvedState.getCube().connectionsInfo, "");
         
         //Input of whatever state we want solved
-        String stateToBeSolved = "wogybgryowgbowywbrogyrrb";
+        String stateToBeSolved = "ywborworbyrwogywrbgogbgy";
         String2Cube convertOperation4StateToBeSolved = new String2Cube(stateToBeSolved);
         convertOperation4StateToBeSolved.convert();
         Cube initial = new Cube(convertOperation4StateToBeSolved.getCube().piece_positions, convertOperation4StateToBeSolved.getCube().connectionsInfo, "");
